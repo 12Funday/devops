@@ -1,0 +1,8 @@
+CREATE TABLE books(
+    id integer primary key autoincrement,
+    title char(50),
+    author char(50)
+);
+
+INSERT INTO books(title, author)
+VALUES ('Awas ada sule', 'Tatang Sutarman');
